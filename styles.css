@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:wght@300&family=Dancing+Script:wght@500&family=Playfair+Display:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #2c2c2c;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    border-top: 1px solid #222;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0.2em;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: rgb(235, 235, 216);
+}
+
+.div__form {
+    margin: 20px ;
+}
+
+.form__div {
+    padding: 10px 20px;
+    background-color: azure;
+    margin: 0 auto;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.form__div-input {
+    width: 100%;
+    background-color: azure;
+    border: none;
+    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+}
+
+.form__div-input:focus {
+    outline: none;
+}
+
+.clima-card {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: azure;
+    text-align: center;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.city {
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 0.9em;
+    margin-bottom: 1.5em;
+}
+
+.temperatura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+
+.temp {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.img-sol {
+    width: 7em;
+    margin-right: 1em;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github {
+    width: 1.7em;
+    margin: 0 .5em;
+}
+
+.instagram {
+    width: 1.8em;
+}
