@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:wght@300&family=Dancing+Script:wght@500&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icono.ico">
     <script src="main.js" defer></script>
     
@@ -15,20 +15,21 @@
 <body>
     <main>
         <div class="div__form">
-            <form>
+            <form id="search-form">
                 <div class="form__div">
                     <input type="text" autocomplete="off" placeholder="Escribe tu ciudad ..." class="form__div-input" id="input">
                 </div>
             </form>
         </div>
         <div class="clima-card">
-            <div class="city">Montevideo, UY</div>
-            <div class="date">10/10/2023</div>
+            <div class="city" id="city">Montevideo, UY</div>
+            <div class="date" id="date">10/10/2023</div>
             <div class="temperatura">
-                <img src="img/sol.png" class="img-sol">
-                <div class="temp">25°C</div>
+                <img src="img/caliente.png" class="temp-img" id="temp-img">
+                <div class="temp" id="temp">25°C</div>
             </div>
-            <div class="rango">Mín 10°C <br> Máx 19°C</div>
+            <div class="clima" id="weather">Soleado</div>
+            <div class="rango" id="rango">Mín 10°C <br> Máx 19°C</div>
         </div>
     </main>
     <footer class="footer">

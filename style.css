@@ -27,7 +27,7 @@ body {
     margin-bottom: 0.2em;
     font-size: 1em;
     line-height: 1.5em;
-    color: rgb(235, 235, 216);
+    color: azure;
 }
 
 .div__form {
@@ -36,18 +36,20 @@ body {
 
 .form__div {
     padding: 10px 20px;
-    background-color: azure;
+    background-color:rgba(23, 82, 82, 0.644);
     margin: 0 auto;
     max-width: 550px;
     border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
 }
 
 .form__div-input {
     width: 100%;
-    background-color: azure;
+    background-color:rgba(23, 82, 82, 0);
     border: none;
     font-size: 1em;
     font-family: 'Playfair Display', serif;
+    color: azure;
 }
 
 .form__div-input:focus {
@@ -55,21 +57,22 @@ body {
 }
 
 .clima-card {
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 20px;
-    background-color: azure;
+    background-color: rgba(23, 82, 82, 0.644);
     text-align: center;
     max-width: 450px;
     border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
 }
 
 .city {
-    font-size: 1.8em;
+    font-size: 2em;
     text-transform: uppercase;
 }
 
 .date {
-    font-size: 0.9em;
+    font-size: 1.2em;
     margin-bottom: 1.5em;
 }
 
@@ -84,9 +87,18 @@ body {
     font-size: 3.5em;
     font-weight: bold;
 }
-.img-sol {
+.temp-img {
     width: 7em;
     margin-right: 1em;
+}
+
+.clima {
+    font-size: 1.9em;
+    margin-bottom: .7em;
+}
+
+.rango {
+    font-size: 1.5em;
 }
 
 .redes {
